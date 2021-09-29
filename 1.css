@@ -43,10 +43,3 @@ body{
     height: 30px;
     font-size: 15px;
 }
-
-.right {
-    display: inline-block;
-    text-align: left;
-    width: 48%;
-    vertical-align: middle;
-}
