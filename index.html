@@ -1,3 +1,58 @@
 <html>
-    
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="1.css">
+    </head>
+    <body>
+        <header><b>Survey Form</b></header>
+        <main>
+            <form action="" id="Survey">
+                <section>
+                    <h1>Let us know how we can improve freeCodeCamp</h1>
+                </section>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" placeholder="Enter your name" class="input"><br>
+                
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" placeholder="Enter your Email" class="input"><br>
+                
+                <label for="Age">Age:</label>
+                <input type="number" id="age" placeholder="Age" class="input"><br>
+
+                <label for="role">Which option best describes your current role?</label>
+                <select name="text" id="role">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Other">Other</option>
+                </select><br>
+
+                <label for="">How likely is that you recommend freeCodeCamp to a friend?</label>
+                <input type="radio" id="Definitely" name="recommend">
+                <label for="Definitely">Definitely</label><br>
+                <input type="radio" id="Maybe" name="recommend">
+                <label for="Maybe">Maybe</label><br>
+                <input type="radio" id="Not sure" name="recommend">
+                <label for="Not sure">Not sure</label><br>
+
+
+                <label for="likes">What do you like most in FCC</label>
+                <select name="text" id="likes">
+                    <option value="" disabled selected hidden>Select an option</option>
+                    <option value="Price">Price</option>
+                    <option value="Teachers">Teachers</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <p>Things that should be improved in the future (Check all that apply):</p>
+                <input type="checkbox" id="Front-end" name="future">
+                <label for="Front-end">Front-end Projects</label><br>
+                <input type="checkbox" id="Back-end" name="future">
+                <label for="Back-end">Back-end Projects</label><br>
+                <input type="checkbox" id="Data Visualisation" name="future">
+                <label for="Data Visualisation">Data Visualisation</label><br>
+
+            </form>
+            <center><button id="submit" type="submit">Submit</button></center>
+        </main>
+    </body>
 </html>
